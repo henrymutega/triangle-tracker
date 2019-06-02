@@ -1,6 +1,6 @@
 # TRIANGLE
 #### Brilliant application where you able to know type of triangle your three side measures, with super worth designs.
-#### By **{HENRY MUTEGA, The Developer}**
+#### By **HENRY MUTEGA, The Developer**
 ## Description
 This is a platform that shows and displays a type of triangle your three-figures measures fits. It allows the user to input the figures to checkout which type of triangle is it: Equilateral, Isosceles, Scalene or not even your figures doesn't fit to form a triangle. It contains information which can be viewed anywhere at your own comfort and accessed any time.
 ## Setup/Installation Requirements
@@ -20,4 +20,4 @@ Comments, concerns, ideas or evens questions.
 email:    hmutega@gmail.com
 ### License
 All right preserved
-Copyright (c) {2019}
+Copyright (c)2019.
