@@ -9,17 +9,21 @@ body{
   margin-top: 0px;
 }
 .info{
-  color: blue;
+  background-color: blue;
+  height: auto;
+}
+h3{
+  color: black;
+  margin-left: 300px
 }
 h1{
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 form{
   background-color: blue;
   margin-left: 300px;
   margin-right: 300px;
-  margin-top: 0px;
 }
 label{
   margin-left: 20px;
@@ -32,10 +36,10 @@ label{
   margin-left: 10px;
   display: block;
   width: 50%;
-  height: calc(2.25rem + 2px);
-  padding: 0.375rem 0.75rem;
+  height: calc(2.25rem + 1px);
+  padding: 0.175rem 0.75rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 0.5;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
