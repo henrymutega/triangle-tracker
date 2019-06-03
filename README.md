@@ -15,6 +15,9 @@ This is a platform that shows and displays a type of triangle your three-figures
 * CSS
 * javaScript
 
+
+##Behavior Driven Development.
+
 Behavior              |Input: Example               |Output: Example
 Our program handles   |When it receives.            |It should return
 ----------------------|-----------------------------|----------------------|
