@@ -16,7 +16,7 @@ This is a platform that shows and displays a type of triangle your three-figures
 * javaScript
 
 
-##Behavior Driven Development.
+## Behavior Driven Development.
 
 | Behavior: Our program outputs | Input: Example | Output: Example        |
 | ---------------------- | ----------------------------- | ---------------------- |
