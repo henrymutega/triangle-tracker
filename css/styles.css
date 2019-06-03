@@ -8,6 +8,9 @@ body{
   background-position: center;
   margin-top: 0px;
 }
+.info{
+  color: blue;
+}
 h1{
   margin-left: 100px;
   margin-top: 20px;
