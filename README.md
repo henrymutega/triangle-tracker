@@ -16,11 +16,11 @@ This is a platform that shows and displays a type of triangle your three-figures
 
 Behavior              |Input: Example               |Output: Example
 Our program handles   |When it receives.            |It should return
-----------------------|-----------------------------|-------------------
-                      |                             |
-                      |
-                      |
-
+----------------------|-----------------------------|----------------------|
+                      |  10, 10, 10                 | Equilateral Triangle.|        
+----------------------|-----------------------------|----------------------|
+                      |20, 20, 30                   | Isosceles Triangle.  |
+----------------------|-----------------------------|----------------------|
 
 * javaScript
 ## Support and contact details
