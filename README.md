@@ -18,14 +18,12 @@ This is a platform that shows and displays a type of triangle your three-figures
 
 ##Behavior Driven Development.
 
-| Behavior               |  Input: Example               |Output: Example         |
-| Our program handles    |  When it receives.            |It should return        |
+| Behavior               |  Input: Example               | Output: Example        |
+| Our program handles    |  When it receives.            | It should return       |
 | ---------------------- | ----------------------------- | ---------------------- |
 |                        |  10, 10, 10                   |  Equilateral Triangle. |        
-| ---------------------- | ----------------------------- | ---------------------- |
 |                        |  20, 20, 30                   | Isosceles Triangle.    |
-| ---------------------- | ----------------------------- | ---------------------- |
-                         |  10, 20, 30                   | Scalene.               |
+|                        |  10, 20, 30                   | Scalene.              |
 
 ## Support and contact details
 Any difficulties in accessing the code or in it's operations?
