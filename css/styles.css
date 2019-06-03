@@ -13,6 +13,9 @@ h1{
   margin-left: 100px;
   margin-top: 20px;
 }
+h2{
+  color: blue;
+}
 form{
   background-color: blue;
   margin-left: 300px;
