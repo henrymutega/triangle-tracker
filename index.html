@@ -4,13 +4,13 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta charset="utf-8">
     <title>Triangle </title>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <header>
-        <script src="js/scripts.js"></script>
         <div class="main">
           <div class="info">
-            <p>b</p>
+            <p></p>
 
           </div>
           <form name="form">
@@ -21,19 +21,18 @@
               <input type="number" placeholder="Side A in meters" required id="sideA" class="form-control"></input>
               <br>
               <label>Side B: </label>
-              <input type="number" placeholder="Side B in meters" required id="sideB" class="form-control"></input>
+              <input type="number" ="Side B in meters" required id="sideB" class="form-control"></input>
               <br>
               <label>Side C: </label>
               <input type="number" placeholder="Side C in meters" required id ="sideC" class="form-control"></input>
-              <br>
-              <label>Result</label>
-              <input type="number" id="result" class="form-control">
               <br><br>
-              <button type="submit" class="btn" onclick="result()">Check Out</button> &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;    &nbsp;
-             <button type="reset" class="btn" onclick="reset()">Reset</button>
+              <button type="button" class="btn" onclick="result()">Check Out</button> &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;    &nbsp;
+             <button type="reset" class="btn" onclick="reset()">Reset</button><br><br>
+             <td><span id="resultOutput"></span></td>
               <br><br><br>
           </form>
         </div>
   </div>
+</header>
   </body>
 </html>

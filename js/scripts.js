@@ -1,19 +1,19 @@
-  var result = function(){
-  var sideA = document.getElementById('sideA').value;
-  var sideB = document.getElementById('sideB').value;
-  var sideC = document.getElementById('sideC').value;
+var result = function  (){
+  var sideone = parseFloat(document.getElementById('sideA').value);
+  var sidetwo = parseFloat(document.getElementById('sideB').value);
+  var sidethree = parseFloat(document.getElementById('sideC').value);
 
-  var output = " ";
+var sides = [sideone, sidetwo, sidethree];
 
-   if(sideA<=0 || sideB<=0 || sideC<=0){
-    output = output + "Invalid inputs.";
-  }else if(sideA!==sideB && sideA!==sideC && sideB!==sideC) (sideA+sideB>sideC && sideA+sideC>sideB && sideB+sideC>sideA){
-    document.getElementById('result').value = output + "This is Scalene Triangle.";
-  }else if(sideA===sideB && sideA===sideC && sideB===sideC){
-    document.getElementById('result').value = output + "This is an Equilateral Triangle.";
-  }else if(sideA===sideB || sideA===sideC || sideB===sideC){
-    document.getElementById('result').value = output + "This is an Isosceles Triangle.";
-  }else if(sideA+sideB<=sideC && sideA+sideC<=sideB && sideB+sideC<=sideA){
-      document.getElementById('result').value = output + "This is not a Triangle!";
-  }
-};
+   if(sides[0]<=0 || sides[1]<=0 || sides[2]<=0){
+     document.getElementById('resultOutput').innerHTML = "Invalid inputs.";
+   }else if(sides[0]+sides[1]<=sides[2] || sides[0]+sides[2]<=sides[1] || sides[1]+sides[2]<=sides[0]){
+       document.getElementById('resultOutput').innerHTML = "This is not a Triangle!";
+  }else if(sides[0]!==sides[1] && sides[0]!==sides[2] && sides[1]!==sides[2]){
+    document.getElementById('resultOutput').innerHTML = "This is Scalene Triangle.";
+  }else if(sides[0]===sides[1] && sides[0]===sides[2] && sides[1]===sides[2]){
+    document.getElementById('resultOutput').innerHTML = "This is an Equilateral Triangle.";
+  }else if(sides[0]===sides[1] || sides[0]===side[2] || sides[1]===sides[2]){
+    document.getElementById('resultOutput').innerHTML = "This is an Isosceles Triangle.";
+}
+}
