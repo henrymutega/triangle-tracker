@@ -13,6 +13,7 @@ This is a platform that shows and displays a type of triangle your three-figures
 ## Technologies Used
 * HTML
 * CSS
+* javaScript
 
 Behavior              |Input: Example               |Output: Example
 Our program handles   |When it receives.            |It should return
@@ -22,7 +23,7 @@ Our program handles   |When it receives.            |It should return
                       |20, 20, 30                   | Isosceles Triangle.  |
 ----------------------|-----------------------------|----------------------|
 
-* javaScript
+
 ## Support and contact details
 Any difficulties in accessing the code or in it's operations?
 Comments, concerns, ideas or evens questions.
