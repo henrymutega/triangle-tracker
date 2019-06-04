@@ -4,7 +4,7 @@
 /***************GENERAL STUFF*********************/
 /*************************************************/
 body{
-  background-image: url("bg.jpg");
+  background-image: url('oeilogo.gif');
   background-position: center;
   margin-top: 0px;
 }
@@ -24,6 +24,7 @@ form{
   background-color: blue;
   margin-left: 300px;
   margin-right: 300px;
+
 }
 label{
   margin-left: 20px;
@@ -33,7 +34,7 @@ label{
   color: blue;
 }
 .form-control {
-  margin-left: 10px;
+  margin-left: 20px;
   display: block;
   width: 50%;
   height: calc(2.25rem + 1px);
