@@ -28,3 +28,4 @@
       document.getElementById('resultOutput').innerHTML = sides + " This is an Isosceles Triangle.";
     }
   }
+  
