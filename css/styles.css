@@ -4,27 +4,19 @@
 /***************GENERAL STUFF*********************/
 /*************************************************/
 body{
-  background-image: url('oeilogo.gif');
+  background-image: url('mathsclass2.jpg');
   background-position: center;
   margin-top: 0px;
 }
-.info{
-  background-color: blue;
-  height: auto;
-}
-h3{
-  color: black;
-  margin-left: 300px
-}
 h1{
   margin-left: 100px;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 form{
   background-color: blue;
-  margin-left: 300px;
-  margin-right: 300px;
-
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 100vh;
 }
 label{
   margin-left: 20px;
@@ -36,7 +28,7 @@ label{
 .form-control {
   margin-left: 20px;
   display: block;
-  width: 50%;
+  width: 40%;
   height: calc(2.25rem + 1px);
   padding: 0.175rem 0.75rem;
   font-size: 1rem;
